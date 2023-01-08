@@ -1,6 +1,5 @@
 FROM qmkfm/qmk_cli
 
-VOLUME /qmk_firmware
 WORKDIR /qmk_firmware
 
-CMD qmk compile -kb all -km default
+CMD qmk compile -kb redox_w -km alvint
